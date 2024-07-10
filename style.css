@@ -63,3 +63,43 @@ body {
     flex-grow: 1;
     flex-direction: column;
 }
+/* title style */
+.card-title {
+    text-decoration: none;
+}
+
+/* description style */
+.card-description {
+    flex-grow: 1;
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+}
+
+/* post-info style */
+.card-post-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* avatar style */
+.card-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* author style */
+.card-author {
+    color: var(--card-category-cl);
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+/* date style */
+.card-date {
+    color: #7770;
+    font-size: 15px;
+    text-align: center;
+}
