@@ -1,0 +1,21 @@
+:root {
+    --primary-cl: rgb(12, 12, 12);
+    --card-border-redius: 7px;
+    --card-title-cl: orange;
+    --card-category-cl: seagreen;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem;
+}
