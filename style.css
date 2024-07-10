@@ -63,8 +63,20 @@ body {
     flex-grow: 1;
     flex-direction: column;
 }
+
+/* category style */
+.card-category {
+    color: var(--card-category-cl);
+    font-size: 1.4rem;
+    font-weight: 500%;
+}
+
 /* title style */
 .card-title {
+    color: var(--card-title-cl);
+    margin-bottom: 1.3rem;
+    font-family: cursive;
+    font-size: 2rem;
     text-decoration: none;
 }
 
@@ -99,7 +111,7 @@ body {
 
 /* date style */
 .card-date {
-    color: #7770;
+    color: #777;
     font-size: 15px;
     text-align: center;
 }
