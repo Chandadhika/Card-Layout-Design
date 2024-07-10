@@ -103,3 +103,25 @@ body {
     font-size: 15px;
     text-align: center;
 }
+
+/* tablet view */
+@media screen and (min-width: 700px) {
+    .card-containe {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-img {
+        width: 100%;
+        height: 28%;
+    }
+}
+
+/* desktop view */
+@media screen and (min-width: 1200px) {
+    .card-containe {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card-img {
+        width: 100%;
+        height: 35%;
+    }
+}
